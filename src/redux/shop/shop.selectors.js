@@ -16,4 +16,4 @@ export const selectCollections = collectionUrlPrams =>
     createSelector(
         [selectCollection],
         collection => collection[collectionUrlPrams] 
-    );
+);
