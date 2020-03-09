@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './checkout.styles.scss';
+import { CheckoutPageContainer, CheckoutHeader, HeaderBlock, Total, TestWarning } from './checkout.styles';
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
 import { connect } from 'react-redux';
 import { createStructuredSelector} from 'reselect';
@@ -9,39 +9,39 @@ import StripeCheckoutButton from '../../components/stripe-button/stripe-button.c
 
 
 const CheckoutPage = ({ cartItems, total }) => (
-    <div className='checkout-page'>
-        <div className="checkout-header">
-            <div className="header-block">
+    <CheckoutPageContainer>
+        <CheckoutHeader>
+            <HeaderBlock>
                 <span>Product</span>
-            </div>
-            <div className="header-block">
+            </HeaderBlock>
+            <HeaderBlock>
                 <span>Description</span>
-            </div>
-            <div className="header-block">
+            </HeaderBlock>
+            <HeaderBlock>
                 <span>Quantity</span>
-            </div>
-            <div className="header-block">
+            </HeaderBlock>
+            <HeaderBlock>
                 <span>Price</span>
-            </div>
-            <div className="header-block">
+            </HeaderBlock>
+            <HeaderBlock>
                 <span>Remove</span>
-            </div>
-        </div>
+            </HeaderBlock>
+        </CheckoutHeader>
         {
             cartItems.map(cartItem => (
                 <CheckoutItem key= {cartItem.id} cartItem={cartItem}/>
             ))
         }
-    <div className="total">
+    <Total>
         Total: ${total}
-    </div>
-    <div className='test-warning'>
+    </Total>
+    <TestWarning>
         *Please use following details for payment testing*
         <br/>
         4242 4242 4242 4242 - Exp: 01/21 - CVV: 123
-    </div>
+    </TestWarning>
     <StripeCheckoutButton price={total}/>
-    </div>
+    </CheckoutPageContainer>
 ); 
 
 const mapStateToProps = createStructuredSelector({
