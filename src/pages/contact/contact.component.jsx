@@ -15,7 +15,7 @@ const ContactPage = () => (
     <ContactUs className="animate__animated animate__rubberBand">
       CONTACT US
     </ContactUs>
-    <Heading>HEAD OFFICE</Heading>
+    <Heading className="animate__animated animate__flipInX">HEAD OFFICE</Heading>
     <HeadofficeSection>
       <HeadImageContainer className="animate__animated animate__fadeInLeft">
         <Headoffice />
