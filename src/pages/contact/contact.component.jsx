@@ -1,6 +1,8 @@
 import React from "react";
 
 import { ReactComponent as Headoffice } from "../../assets/building.svg";
+import { ReactComponent as Ceo } from "../../assets/ceo.svg";
+
 import {
   ContactPageContainer,
   HeadofficeSection,
@@ -35,6 +37,7 @@ const ContactPage = () => (
         sentence structures, to generate Lorem Ipsum which looks reasonable.
       </HeadTextContainer>
     </HeadofficeSection>
+    <Heading data-aos="fade-up">OUR FOUNDER</Heading>
     <HeadofficeSection>
       <HeadTextContainer data-aos="fade-right">
         There are many variations of passages of Lorem Ipsum available, but the
@@ -48,7 +51,7 @@ const ContactPage = () => (
         sentence structures, to generate Lorem Ipsum which looks reasonable.
       </HeadTextContainer>
       <HeadImageContainer data-aos="fade-left">
-        <Headoffice />
+        <Ceo />
       </HeadImageContainer>
     </HeadofficeSection>
   </ContactPageContainer>
