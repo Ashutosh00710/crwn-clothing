@@ -15,13 +15,15 @@ const ContactPage = () => (
     <ContactUs className="animate__animated animate__rubberBand">
       CONTACT US
     </ContactUs>
-    <Heading className="animate__animated animate__flipInX">HEAD OFFICE</Heading>
+    <Heading className="animate__animated animate__zoomInUp animate__delay-1s animate__slow">
+      HEAD OFFICE
+    </Heading>
     <HeadofficeSection>
-      <HeadImageContainer className="animate__animated animate__fadeInLeft">
+      <HeadImageContainer className="animate__animated animate__fadeInLeft animate__delay-1s">
         <Headoffice />
       </HeadImageContainer>
 
-      <HeadTextContainer className="animate__animated animate__fadeInRight">
+      <HeadTextContainer className="animate__animated animate__fadeInRight animate__delay-1s">
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable. If you are
