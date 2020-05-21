@@ -16,12 +16,12 @@ export const ContactUs = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1.3px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
 `;
 
 export const Heading = styled.div`
   font-size: 3rem;
-  padding: 10px 0;
+  padding: 30px 0;
 `;
 
 export const HeadofficeSection = styled.div`
