@@ -7,11 +7,20 @@ export const FooterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   border-top: 1px solid darkgrey;
+
+  @media screen and (max-width: 800px) {
+    margin-left: 1.1rem;
+  }
 `;
 
 export const CopyrightSection = styled.div`
   font-size: 1.3rem;
   padding: 1rem;
+
+  @media screen and (max-width: 800px) {
+    font-size: 0.9rem;
+    padding: 0;
+  }
 `;
 
 export const SocialmediaSection = styled.div`

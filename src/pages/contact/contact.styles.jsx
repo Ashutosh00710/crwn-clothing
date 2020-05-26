@@ -7,6 +7,10 @@ export const ContactPageContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 30px auto 0;
+
+  @media screen and (max-width: 800px) {
+    margin: 10px auto 0;
+  }
 `;
 
 export const ContactUs = styled.div`
@@ -17,11 +21,20 @@ export const ContactUs = styled.div`
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid darkgrey;
+
+  @media screen and (max-width: 800px) {
+    font-size: 2rem;
+  }
 `;
 
 export const Heading = styled.div`
   font-size: 3rem;
   padding: 30px 0;
+
+  @media screen and (max-width: 800px) {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
 `;
 
 export const HeadofficeSection = styled.div`
@@ -29,15 +42,28 @@ export const HeadofficeSection = styled.div`
   padding: 10px 0;
   display: flex;
   justify-content: space-between;
+
+  @media screen and (max-width: 800px) {
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+  }
 `;
 
 export const HeadImageContainer = styled.div`
-  height: auto;
   width: 160rem;
   padding: 25px;
+  @media screen and (max-width: 800px) {
+    padding: 3px;
+    width: 80rem;
+  }
 `;
 
 export const HeadTextContainer = styled.div`
   font-size: 1.7rem;
   padding: 45px;
+  @media screen and (max-width: 800px) {
+    padding: 15px;
+    font-size: 0.9rem;
+  }
 `;
