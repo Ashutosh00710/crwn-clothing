@@ -12,6 +12,11 @@ export const CheckoutPageContainer = styled.div`
     margin-left: auto;
     margin-top: 50px;
   }
+
+  @media screen and (max-width: 800px) {
+    width: 85%;
+    margin: 20px auto 0;
+  }
 `;
 
 export const CheckoutHeader = styled.div`
@@ -20,6 +25,12 @@ export const CheckoutHeader = styled.div`
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid darkgrey;
+
+  @media screen and (max-width: 800px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
 `;
 
 export const HeaderBlock = styled.div`
@@ -35,6 +46,10 @@ export const Total = styled.div`
   margin-top: 30px;
   margin-left: auto;
   font-size: 36px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 18px;
+  }
 `;
 
 export const TestWarning = styled.div`
@@ -42,4 +57,8 @@ export const TestWarning = styled.div`
   margin-top: 40px;
   font-size: 24px;
   color: red;
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+  }
 `;
