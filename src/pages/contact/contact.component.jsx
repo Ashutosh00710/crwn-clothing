@@ -51,7 +51,11 @@ const ContactPage = () => (
         sentence structures, to generate Lorem Ipsum which looks reasonable.
       </HeadTextContainer>
       <HeadImageContainer data-aos="fade-left">
-        <Ceo />
+        <Ceo
+          style={{
+            margin: "2rem",
+          }}
+        />
       </HeadImageContainer>
     </HeadofficeSection>
   </ContactPageContainer>
