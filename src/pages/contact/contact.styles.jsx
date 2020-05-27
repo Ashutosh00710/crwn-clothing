@@ -44,8 +44,7 @@ export const HeadofficeSection = styled.div`
   justify-content: space-between;
 
   @media screen and (max-width: 800px) {
-    flex-direction: row;
-    align-items: center;
+    display: grid;
     padding: 0;
   }
 `;
@@ -55,7 +54,8 @@ export const HeadImageContainer = styled.div`
   padding: 25px;
   @media screen and (max-width: 800px) {
     padding: 3px;
-    width: 80rem;
+    width: 8rem;
+    margin-left: 5.5rem;
   }
 `;
 

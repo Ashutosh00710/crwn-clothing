@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ReactComponent as Facebook } from "../../assets/facebook.svg";
+import { ReactComponent as Facebook } from "../../assets/facebook.svg.svg";
 import { ReactComponent as Instagram } from "../../assets/instagram.svg";
 import { ReactComponent as Twitter } from "../../assets/twitter.svg";
 import { ReactComponent as YouTube } from "../../assets/youtube.svg";
@@ -18,16 +18,6 @@ const Footer = () => (
       <Instagram />
       <Twitter />
       <YouTube />
-
-      {/* <SocialmediaIcons>
-        <Instagram />
-      </SocialmediaIcons>
-      <SocialmediaIcons>
-        <Twitter />
-      </SocialmediaIcons>
-      <SocialmediaIcons>
-        <YouTube />
-      </SocialmediaIcons> */}
     </SocialmediaSection>
   </FooterContainer>
 );

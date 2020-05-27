@@ -26,8 +26,8 @@ export const CopyrightSection = styled.div`
 export const SocialmediaSection = styled.div`
   padding: 1rem;
   display: flex;
-`;
-
-export const SocialmediaIcons = styled.div`
-  width: 5rem;
+  @media screen and (max-width: 800px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 `;

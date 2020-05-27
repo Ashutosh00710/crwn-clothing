@@ -40,4 +40,8 @@ export const OptionLink = styled(Link)`
   padding: 10px 15px;
   text-decoration: none;
   cursor: pointer;
+
+  @media screen and (max-width: 800px) {
+    font-size: 0.8rem;
+  }
 `;

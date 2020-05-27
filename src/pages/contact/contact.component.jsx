@@ -53,7 +53,7 @@ const ContactPage = () => (
       <HeadImageContainer data-aos="fade-left">
         <Ceo
           style={{
-            margin: "2rem",
+            margin: "-1.5rem",
           }}
         />
       </HeadImageContainer>
