@@ -12,10 +12,15 @@ export const Title = styled.h2`
 
 export const Items = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-
-  & .collection-item {
+  & > div {
     margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
   }
 `;
