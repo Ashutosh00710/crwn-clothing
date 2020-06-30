@@ -70,3 +70,18 @@ export const AddButton = styled(CustomButton)`
     padding: 0px 10px 0px 10px;
   }
 `;
+
+export const DetailButton = styled(CustomButton)`
+  width: 80%;
+  opacity: 0.7;
+  position: absolute;
+  top: 195px;
+  display: none;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    opacity: 0.9;
+    min-width: unset;
+    padding: 0px 10px 0px 10px;
+  }
+`;
