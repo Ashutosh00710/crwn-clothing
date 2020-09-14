@@ -1,6 +1,7 @@
 # crwn-clothing
 
 A cloth purchasing E-Commerce Site with payment integration (Under Development)
+![Cover](https://github.com/Ashutosh00710/crwn-clothing/blob/master/client/src/assets/cover.png)
 
 ## ⚙ Tools & Technologies Used
 
