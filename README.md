@@ -39,7 +39,6 @@ Go inside the client directory and run command yarn
 #### `yarn`
 
 This will install all the dependencies related to client (or front-end).
-
 After the installation of dependencies ready to run it on your local machine.
 
 ### To run full stack (Payment feature will work only in full stack mode)
