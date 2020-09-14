@@ -11,6 +11,7 @@ A cloth purchasing E-Commerce Site with payment integration (Under Development)
 ![](https://img.shields.io/badge/Database-Firebase-informational?style=flat&logo=firebase&logoColor=white&color=FFCA28)
 ![](https://img.shields.io/badge/Backend-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=339933)
 ![](<https://img.shields.io/badge/PackageManager-Yarn(v1.19.2)-informational?style=flat&logo=yarn&logoColor=white&color=2C8EBB>)
+![](https://img.shields.io/badge/Deployed-Heroku-informational?style=flat&logo=heroku&logoColor=white&color=430098)
 
 # Status
 
