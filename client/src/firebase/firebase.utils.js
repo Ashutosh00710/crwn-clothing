@@ -38,6 +38,21 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   return userRef;
 };
 
+export const createRegisterCompanyDocument = async (state) => {
+  const regRef = firestore.collection("retailer").doc();
+  try {
+    await regRef.set({
+      owner: state.owner,
+      company: state.company,
+      address: state.address,
+      email: state.email,
+      contact: state.contact,
+    });
+  } catch (error) {
+    console.log("error in creating user", error.message);
+  }
+};
+
 firebase.initializeApp(config);
 
 export const addCollectionAndDocuments = async (
@@ -74,6 +89,7 @@ export const convertCollectionsSnapshotToMap = (collection) => {
 
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
+export const insert = firebase.firestore.FieldValue.arrayUnion;
 
 const provider = new firebase.auth.GoogleAuthProvider();
 provider.setCustomParameters({ prompt: "select_account" });

@@ -7,6 +7,8 @@ import CheckoutPage from "./pages/checkout/checkout.component";
 import SignInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component";
 import ContactPage from "./pages/contact/contact.component";
 import DetailsPage from "./pages/details/details.component";
+import RetailPage from "./pages/retail/retail.component";
+import Profile from "./pages/profile/profile.component";
 import Header from "./components/header/header.component";
 import Footer from "./components/footer/footer.component";
 import {
@@ -65,6 +67,20 @@ class App extends React.Component {
           />
           <Route exact path="/contact" component={ContactPage} />
           <Route path="/details" component={DetailsPage} />
+          <Route
+            exact
+            path="/retailer"
+            render={() =>
+              this.props.currentUser ? (
+                this.props.currentUser.role ? (
+                  <Redirect to="/profile" />
+                ) : (
+                  <RetailPage />
+                )
+              ) : null
+            }
+          />
+          <Route path="/profile" component={Profile} />
         </Switch>
         <Footer />
       </div>

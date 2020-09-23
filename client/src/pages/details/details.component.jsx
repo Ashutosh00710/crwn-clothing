@@ -16,7 +16,7 @@ const DetailsPage = ({ details, addItem }) => {
   return (
     <DetailsPageContainer>
       <ImageContainer>
-        <img src={imageUrl} alt="Item" height="384" width="100%" />
+        <img src={imageUrl} alt="Item" height="384" width="auto" />
       </ImageContainer>
       <DetailContainer>
         <ItemName>{name}</ItemName>
