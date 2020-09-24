@@ -80,7 +80,18 @@ class App extends React.Component {
               ) : null
             }
           />
-          <Route path="/profile" component={Profile} />
+          <Route
+            path="/profile"
+            render={() =>
+              this.props.currentUser ? (
+                this.props.currentUser.role ? (
+                  <Profile />
+                ) : (
+                  <Redirect to="/" />
+                )
+              ) : null
+            }
+          />
         </Switch>
         <Footer />
       </div>

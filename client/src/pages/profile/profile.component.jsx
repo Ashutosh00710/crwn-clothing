@@ -2,6 +2,7 @@ import React from "react";
 import { firestore, insert } from "../../firebase/firebase.utils";
 import FormInput from "../../components/form-input/form-input.component";
 import CoustomButton from "../../components/coustom-button/coustom-button.component";
+import { SelectContainer, Select } from "./profile.styles";
 
 let id = "";
 
@@ -28,7 +29,6 @@ class Profile extends React.Component {
         };
       });
       this.setState({ arr: arr });
-      console.log(this.state.arr);
     });
   }
 
@@ -81,18 +81,20 @@ class Profile extends React.Component {
             handleChange={this.handleChange}
             required
           />
-          <select
-            name="value"
-            value={this.state.value}
-            onChange={this.handleChange}
-          >
-            <option value="">Select Type</option>
-            <option value="Mens">Mens</option>
-            <option value="Womens">Womens</option>
-            <option value="Jackets">Jackets</option>
-            <option value="Sneakers">Sneakers</option>
-            <option value="Hats">Hats</option>
-          </select>
+          <SelectContainer>
+            <Select
+              name="value"
+              value={this.state.value}
+              onChange={this.handleChange}
+            >
+              <option value="">Select Type</option>
+              <option value="Mens">Mens</option>
+              <option value="Womens">Womens</option>
+              <option value="Jackets">Jackets</option>
+              <option value="Sneakers">Sneakers</option>
+              <option value="Hats">Hats</option>
+            </Select>
+          </SelectContainer>
           <FormInput
             name="price"
             type="text"
