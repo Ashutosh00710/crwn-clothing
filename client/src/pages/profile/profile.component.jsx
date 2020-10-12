@@ -3,6 +3,9 @@ import { firestore, insert } from "../../firebase/firebase.utils";
 import FormInput from "../../components/form-input/form-input.component";
 import CoustomButton from "../../components/coustom-button/coustom-button.component";
 import { SelectContainer, Select } from "./profile.styles";
+import { connect } from "react-redux";
+import { selectCurrentUser } from "../../redux/user/user.selectors";
+import { createStructuredSelector } from "reselect";
 
 let id = "";
 
@@ -110,4 +113,8 @@ class Profile extends React.Component {
   }
 }
 
-export default Profile;
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser,
+});
+
+export default connect(mapStateToProps)(Profile);

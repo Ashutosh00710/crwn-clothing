@@ -40,6 +40,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 
 export const createRegisterCompanyDocument = async (state) => {
   const regRef = firestore.collection("retailer").doc();
+  const id = regRef.id;
   try {
     await regRef.set({
       owner: state.owner,
@@ -47,10 +48,18 @@ export const createRegisterCompanyDocument = async (state) => {
       address: state.address,
       email: state.email,
       contact: state.contact,
+      products: {
+        Mens: [],
+        Womens: [],
+        Sneakers: [],
+        Hats: [],
+        Jackets: [],
+      },
     });
   } catch (error) {
     console.log("error in creating user", error.message);
   }
+  return id;
 };
 
 firebase.initializeApp(config);
