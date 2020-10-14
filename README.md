@@ -1,4 +1,4 @@
-# crwn-clothing
+# Crown Clothing 👑
 
 A cloth purchasing E-Commerce Site with payment integration (Under Development)
 
@@ -6,15 +6,19 @@ A cloth purchasing E-Commerce Site with payment integration (Under Development)
 
 ## ⚙ Tools & Technologies Used
 
-![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=F7DF1E)
-![](https://img.shields.io/badge/CSS-StyledComponents-informational?style=flat&logo=styled-components&logoColor=white&color=DB7093)
-![](https://img.shields.io/badge/UI-React.js-informational?style=flat&logo=react&logoColor=white&color=61DAFB)
-![](https://img.shields.io/badge/StateManagement-Redux-informational?style=flat&logo=redux&logoColor=white&color=764ABC)
-![](https://img.shields.io/badge/Database-Firebase-informational?style=flat&logo=firebase&logoColor=white&color=FFCA28)
-![](https://img.shields.io/badge/Backend-Node.js-informational?style=flat&logo=node.js&logoColor=white&color=339933)
-![](<https://img.shields.io/badge/PackageManager-Yarn(v1.19.2)-informational?style=flat&logo=yarn&logoColor=white&color=2C8EBB>)
-![](https://img.shields.io/badge/Deployed-Heroku-informational?style=flat&logo=heroku&logoColor=white&color=430098)
-![](https://img.shields.io/badge/PaymentIntegration-Stripe-informational?style=flat&logo=stripe&logoColor=white&color=008CDD)
+<p align="center">
+
+<img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E">
+<img src="https://img.shields.io/badge/Styled%20Components-informational?style=for-the-badge&logo=styled-components&logoColor=white&color=DB7093">
+<img src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB">
+<img src="https://img.shields.io/badge/redux%20-%23593d88.svg?&style=for-the-badge&logo=redux&logoColor=white">
+<img src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white">
+<img src="https://img.shields.io/badge/firebase%20-%23039BE5.svg?&style=for-the-badge&logo=firebase">
+<img src="https://img.shields.io/badge/-Yarn-informational?style=for-the-badge&logo=yarn&logoColor=white&color=2C8EBB">
+<img src="https://img.shields.io/badge/Payment%20Integration-Stripe?style=for-the-badge&logo=stripe&logoColor=white&color=008CDD">
+<img src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white">
+
+</p>
 
 ## Status
 
