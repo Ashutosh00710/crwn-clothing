@@ -24,7 +24,7 @@ A cloth purchasing E-Commerce Site with payment integration (Under Development)
 
 [![Heroku App Status](http://heroku-shields.herokuapp.com/crownn-clothing-ltd-live)](https://crownn-clothing-ltd-live.herokuapp.com)
 
-## How to run 🏃🏻‍♂️ it on your local machine 💻 ?
+## How to run 🏃🏻‍♂️ it on your local machine 💻 ->
 
 This project is using _yarn_ as its package manager. If you don't have yarn on your local machine the you can download it [here](https://classic.yarnpkg.com/en/docs/install#windows-stable) . Once yarn is installed you are good to go.
 
