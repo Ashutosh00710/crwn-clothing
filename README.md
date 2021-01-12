@@ -1,4 +1,4 @@
-# Crown Clothing 
+# Crown-Clothing App
 
 A cloth purchasing E-Commerce Site with payment integration (Under Development)
 
