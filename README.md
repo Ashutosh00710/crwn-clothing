@@ -1,4 +1,4 @@
-# Crown Clothing 👑
+# Crown Clothing 
 
 A cloth purchasing E-Commerce Site with payment integration (Under Development)
 
